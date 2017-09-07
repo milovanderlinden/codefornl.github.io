@@ -277,6 +277,10 @@ a.cta_button {
     line-height: 1.6em;
 }
 
+a {
+  color: #74C7A8;
+}
+
 .persoon {
     width: 200px;
     padding: 10px;
