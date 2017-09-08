@@ -318,9 +318,6 @@ a {
         float: none;
         width: 100%
     }
-}
-
-@media screen and (max-width: 640px) {
     .persoon {
         display: block;
         margin: 40px auto;
