@@ -397,7 +397,7 @@ a {
       font-family: "FontAwesome";
       width: 1em;
       height: 1em;
-      content: "git"; /* add github icon */
+      content: "_"; /* add github icon */
 }
 .slackBtn{
     background-image: url('../img/social/Slack.png');
