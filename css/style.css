@@ -321,6 +321,9 @@ a {
         display: block;
         margin: 40px auto;
     }
+    .centered_content h2 {
+        text-align: center;
+    }
 }
 
 .social a {
