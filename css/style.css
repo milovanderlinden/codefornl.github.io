@@ -239,6 +239,7 @@ img.icon {
 
 p.social {
     height: 2em;
+    text-align: center;
 }
 a.social {
     text-decoration: none
@@ -290,6 +291,7 @@ a {
 }
 .persoon .pasfoto {
     width: 100%;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 800px) {
@@ -315,4 +317,89 @@ a {
         float: none;
         width: 100%
     }
+}
+.social a {
+  margin-right: 1em;
+}
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    border-radius: 18px;
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+}
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+}
+/* github button class*/
+.githubBtn{
+    background: #24292e;
+}
+
+.githubBtn:before{
+      font-family: "FontAwesome";
+      content: "\f09b"; /* add github icon */
+}
+
+.githubBtn:hover{
+      color: #24292e;
+      background: #fff;
+}
+/* email button class*/
+.emailBtn{
+    background: #24292e;
+}
+
+.emailBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e0"; /* add github icon */
+}
+
+.emailBtn:hover{
+      color: #24292e;
+      background: #fff;
+}
+/* slack button class */
+.slackBtn:before{
+      font-family: "FontAwesome";
+      width: 1em;
+      content: "_"; /* add github icon */
+}
+.slackBtn{
+    background-image: url('../img/social/Slack.png');
+    background-size: 32px 32px;
 }
