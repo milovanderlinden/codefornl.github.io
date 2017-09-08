@@ -217,7 +217,8 @@ main section {
 
 p {
     margin: 1em 0em;
-    line-height: 1.4em
+    line-height: 1.4em;
+    overflow: hidden;
 }
 
 p.headline {
