@@ -285,8 +285,6 @@ a {
     width: 200px;
     padding: 10px;
     border-bottom: 1px solid #aaa;
-    border-left: 1px solid #aaa;
-    border-radius: 1em;
     display: inline-block;
     margin: 10px;
 }
