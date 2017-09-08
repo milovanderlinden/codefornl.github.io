@@ -284,7 +284,9 @@ a {
 .persoon {
     width: 200px;
     padding: 10px;
-    box-shadow: 0 2px 2px #aaa;
+    border-bottom: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-radius: 1em;
     display: inline-block;
     margin: 10px;
 }
@@ -317,6 +319,14 @@ a {
         width: 100%
     }
 }
+
+@media screen and (max-width: 640px) {
+    .persoon {
+        display: block;
+        margin: 40px auto;
+    }
+}
+
 .social a {
   margin-right: 1em;
 }
