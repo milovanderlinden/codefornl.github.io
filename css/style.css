@@ -238,7 +238,6 @@ img.icon {
 }
 
 p.social {
-    height: 2em;
     text-align: center;
 }
 a.social {
@@ -397,7 +396,8 @@ a {
 .slackBtn:before{
       font-family: "FontAwesome";
       width: 1em;
-      content: "_"; /* add github icon */
+      height: 1em;
+      content: "git"; /* add github icon */
 }
 .slackBtn{
     background-image: url('../img/social/Slack.png');
