@@ -342,10 +342,12 @@ a {
     font-size: 18px;
     font-weight: normal;
     line-height: 30px;
-    border-radius: 18px;
-    -moz-border-radius:18px;
-    -webkit-border-radius:18px;
+    border-radius: 2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    vertical-align: bottom;
 }
+
 .twitterBtn{
     background: #00ABE3;
 }
@@ -355,10 +357,6 @@ a {
       content: "\f099"; /* add twitter icon */
 }
 
-.twitterBtn:hover{
-      color: #00ABE3;
-      background: #fff;
-}
 /* linkedin button class*/
 .linkedinBtn{
     background: #0094BC;
@@ -369,13 +367,9 @@ a {
       content: "\f0e1"; /* add linkedin icon */
 }
 
-.linkedinBtn:hover{
-      color: #0094BC;
-      background: #fff;
-}
 /* github button class*/
 .githubBtn{
-    background: #24292e;
+    background: #171515;
 }
 
 .githubBtn:before{
@@ -383,10 +377,13 @@ a {
       content: "\f09b"; /* add github icon */
 }
 
-.githubBtn:hover{
-      color: #24292e;
-      background: #fff;
+/* medium button class*/
+.mediumBtn{
+    color: #333333; /*medium huisstijl*/
+    background-image: url('../img/social/Medium.png');
+    background-size: 32px 32px;
 }
+
 /* email button class*/
 .emailBtn{
     background: #24292e;
@@ -394,20 +391,10 @@ a {
 
 .emailBtn:before{
       font-family: "FontAwesome";
-      content: "\f0e0"; /* add github icon */
+      content: "\f0e0"; /* add email icon */
 }
 
-.emailBtn:hover{
-      color: #24292e;
-      background: #fff;
-}
 /* slack button class */
-.slackBtn:before{
-      font-family: "FontAwesome";
-      width: 1em;
-      height: 1em;
-      content: "_"; /* add github icon */
-}
 .slackBtn{
     background-image: url('../img/social/Slack.png');
     background-size: 32px 32px;
