@@ -327,7 +327,7 @@ a {
 }
 
 .social a {
-  margin-right: 1em;
+  margin-right: 0.4em;
 }
 .smGlobalBtn{ /* global button class */
     display: inline-block;
@@ -392,6 +392,12 @@ a {
 .emailBtn:before{
       font-family: "FontAwesome";
       content: "\f0e0"; /* add email icon */
+}
+
+/* website button class*/
+.websiteBtn{
+    background-image: url('../img/social/website.png');
+    background-size: 32px 32px;
 }
 
 /* slack button class */
