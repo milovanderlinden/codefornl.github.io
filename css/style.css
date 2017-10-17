@@ -298,3 +298,9 @@ a {
     background-image: url('../img/social/Slack.png');
     background-size: 32px 32px;
 }
+
+/* partup button class */
+.partupBtn{
+    background-image: url('../img/social/Partup.png');
+    background-size: 32px 32px;
+}
