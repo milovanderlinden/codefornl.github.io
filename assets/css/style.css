@@ -274,7 +274,7 @@ a {
 /* medium button class*/
 .mediumBtn{
     color: #333333; /*medium huisstijl*/
-    background-image: url('../img/social/Medium.png');
+    background-image: url('../images/social/Medium.png');
     background-size: 32px 32px;
 }
 
@@ -290,18 +290,18 @@ a {
 
 /* website button class*/
 .websiteBtn{
-    background-image: url('../img/social/website.png');
+    background-image: url('../images/social/website.png');
     background-size: 32px 32px;
 }
 
 /* slack button class */
 .slackBtn{
-    background-image: url('../img/social/Slack.png');
+    background-image: url('../images/social/Slack.png');
     background-size: 32px 32px;
 }
 
 /* partup button class */
 .partupBtn{
-    background-image: url('../img/social/Partup.png');
+    background-image: url('../images/social/Partup.png');
     background-size: 32px 32px;
 }
