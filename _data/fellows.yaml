@@ -1,0 +1,32 @@
+fellows:
+    - name: Milo van der Linden
+      slug: milo
+      chapter: Eindhoven
+      year: 2016
+      specialty: Geo ICT, Open Source, devOps
+    - name: Johan Groenen
+      slug: jgroenen
+      chapter: Amsterdam
+      year: 2015
+      specialty: APIs, Digitale Transformatie
+    - name: Marcel Goethals
+      slug: marcelgoethals
+      chapter: Eindhoven
+      year: 2016
+      specialty: Full Stack JavaScript
+    - name: Bas Biezemans
+      chapter: Eindhoven
+      year: 2016
+      specialty: ...
+    - name: Giovanni Maggini
+      chapter: Amsterdam
+      year: 2013
+      specialty: ...
+    - name: Ohyoon Kwon
+      chapter: Amsterdam
+      year: 2013
+      specialty: UX Design
+    - name: Piotr Steininger
+      chapter: Amsterdam
+      year: 2013
+      specialty: ...
